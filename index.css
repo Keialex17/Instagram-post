@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh
+}
+.postcard{
+    width: 450px;
+    background-color: white;
+}
+.icono{ 
+    display: flex;
+    font-size: 30px;
+}
+.postcard-header{
+        display: flex;
+        justify-content: space-between;
+        padding: 2px;
+        background-color: white;
+}
+.segundo icono{
+    display: flex;
+    font-size: 30px;
+}
