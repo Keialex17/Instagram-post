@@ -3,23 +3,58 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 100vh
+    height: 100vh;
 }
-.postcard{
+.emojis {
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    margin-left: 1px;
+    margin-right: 3px;
+}
+.icono{
+    display: flex;
+    font-size: 30px;
+    padding: 5px;
+}
+.encabezado {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: white;
+}
+.Post {
     width: 450px;
     background-color: white;
 }
-.icono{ 
-    display: flex;
+img {
+    object-fit: cover;
+    width: 450px;
+    height: 300px;
+    
+}
+.comentario {
+    margin: auto;
+}
+.bookmark{
+    margin-left: auto;
+}
+.fa-brands fa-instagram {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.fa-ellipsis-vertical{
     font-size: 30px;
 }
-.postcard-header{
-        display: flex;
-        justify-content: space-between;
-        padding: 2px;
-        background-color: white;
+.comentario{
+    text-align: justify;
+    padding: 10px;
 }
-.segundo icono{
-    display: flex;
-    font-size: 30px;
+.ellipsis{
+    padding: 3px;
+	justify-content: space-between;
+	align-items: center;
+}
+.texto.encabezado{
+    width: 2000px;
 }
